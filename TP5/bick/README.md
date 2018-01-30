@@ -62,15 +62,17 @@ www  WEB部署目录（或者子目录）
 
 ## 配置方法
 
-######数据库
+###### 数据库
 将文件中的bick.sql导入数据库后
 修改Application目录下的database.php数据库配置文件。
-
+~~~
 ├─'database'       => 'bick',  // 数据库名
 ├─'username'       => '',  // 用户名
 └─'password'       => '',   // 密码
+~~~
 
 ###### 前后台样式引用路径修改
+
 * 前台样式路径
  Application文件夹下的config.php文件：
 
