@@ -70,8 +70,8 @@ www  WEB部署目录（或者子目录）
 ├─'username'       => '',  // 用户名
 └─'password'       => '',   // 密码
 
-######前后台样式引用路径修改
-*前台样式路径
+###### 前后台样式引用路径修改
+* 前台样式路径
  Application文件夹下的config.php文件：
 
   'view_replace_str'       => [
@@ -79,7 +79,7 @@ www  WEB部署目录（或者子目录）
     ],
    将__INDEX__修改到你当前public/static/index文件下。
 
-*后台样式路径
+* 后台样式路径
  Application文件夹下的admin文件夹下config.php文件：
 
   'view_replace_str'       => [
@@ -89,3 +89,4 @@ www  WEB部署目录（或者子目录）
 
 后台登录用户名：admin
 后台登录密码：123456
+
